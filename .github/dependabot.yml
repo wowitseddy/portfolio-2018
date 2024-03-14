@@ -1,0 +1,14 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Directory where package.json and package-lock.json are located
+    directory: "/"
+    # Scheduled interval for updates
+    schedule:
+      interval: "weekly"
+    # Optional: Open pull requests only for patches and minor updates
+    # ignore:
+    #  - dependency-name: "*"
+    #    update-types: ["version-update:semver-major"]
